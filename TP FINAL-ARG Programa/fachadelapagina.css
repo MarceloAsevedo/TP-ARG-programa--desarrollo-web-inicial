@@ -1,0 +1,420 @@
+body{
+    background-image: url('Imagenes/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  /* navegador */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(199, 0, 56, 0.527); 
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-inline-start: 30px;
+  }
+  nav p{
+    font-size: 25px;
+    color: #ffff;
+  }
+  .logog {
+    height: 70px;
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-inline-end: 30px;
+}
+/* inicio */
+#inicio {
+    text-align: center;
+  }
+  
+  #inicio h1 {
+    font-size: 100px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: #FF5733;
+    margin-top: 75px;
+  }
+  
+  #inicio p {
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    color: #ffff;
+    padding: 0 80px;
+  }
+  
+  #inicio img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  button:focus {
+    outline: none;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 35px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #C70039;
+    color: white;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  .btn:hover {
+    background-color: #63023E;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px 20px rgba(235, 50, 121, 0.5);
+  }
+  .expandir {
+    transition: all 0.5s ease-in-out;
+    
+  }
+  .expandir:hover {
+    transform: scale(1.05);
+   
+  }
+
+  .imageninicio {
+    position: relative;
+    display: inline-block;
+  }
+
+  
+  .asomamause {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  footer{
+    background-color: black;
+    color: #ffff;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    padding: 20px;
+  }
+/* coaching */
+
+#coaching img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding-top: 80px;
+    width: 500px;
+  }
+  
+  #coaching h1 {
+    font-size: 60px;
+    color: #ffff;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  #coaching {
+    position: relative;
+  }
+  
+  .cuadrito {
+    background-color: #C70039;
+    color: white;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 35px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #c700632f;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .container:hover {
+    box-shadow: 0 0 15px 20px rgba(235, 50, 121, 0.5);
+    transition: all 0.5s ease-in-out;
+  }
+  .descripcion{
+    font-family: 'Kanit', sans-serif;
+    color: #ffff;
+    font-size: 25px;
+    padding: 10px;
+  }
+  .aladerecha {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .aladerecha img {
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+  }
+  .aladerecha .descripcion{
+    float: left;
+  }
+  
+  .alaizq {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .alaizq img {
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+  }
+ .alaizq .descripcion{
+    float: left
+  }
+  .centrado {
+    
+    color:  #FF5733;
+    font-size: 50x;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .botonsolicitud{
+    text-align: center;
+    clear: both;
+    margin-bottom: 40px;
+    
+  }
+  footer {
+    clear: both;
+  }
+
+.divform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divform h1 {
+  color: #FF5733;
+  margin-top: 70px;
+}
+
+.formu {
+  max-width: 600px;
+  width: 100%;
+  background-color: #63023e27;
+  padding: 30px;
+  color: #ffff;
+  
+}
+
+.form-control {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 10px;
+  background-color: #c700386b;
+  border: none;
+}
+.form-control::placeholder {
+  color: #FF5733;
+}
+
+.formu input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 200px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .formu input[type="submit"] {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form-control {
+    max-width: 100%;
+  }
+}
+.titulocontacto{
+  font-family: 'Kanit', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.comunidad {
+  text-align: center; 
+  color: white; 
+  font-family: 'Kanit', sans-serif; 
+  font-weight: bold; 
+  
+
+}
+.pcontact{
+  font-size: 60px;
+}
+.subt{
+font-size: 75px;
+color: #FF5733;
+border-radius: 50px;
+padding: 30px;
+
+}
+
+.divpygalant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  flex-wrap: wrap;
+  background-color: #63023e31;
+}
+
+.contienedetaies {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 100px;
+  flex-direction: column;
+  
+
+}
+
+.detaie {
+  background-color: #C70039;
+  font-size: 30px;
+ border-radius: 30px;
+  padding: 10px;
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+  margin: 30px;
+  flex-basis: 100%;
+  margin-left: 90px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.divgalant {
+  flex: 1;
+  margin-right: 20px;
+
+  
+  margin-left: 5px;
+}
+
+.brandgalant {
+  max-width: 100%;
+  height: auto;
+  width: 600px;
+ 
+}
+
+.disc{
+  background-color: rgb(67, 141, 238);
+}
+.disc:hover{
+  background-color: rgb(28, 108, 212);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px 20px rgba(50, 99, 235, 0.5);
+
+}
+.imgdisc{
+  width: 300px;
+  padding: 30px;
+}
+.discordconteiner {
+  text-align:center;
+  align-items: center;
+}
+.redes{
+  text-align: center;
+  color: #FF5733;
+  padding: 60px;
+  font-size: 40px;
+}
+.bi{
+  padding: 30px;
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+}
+.bi-twitch:hover{
+  transform: scale(1.05);
+   background-color: rgb(134, 0, 94);
+   transition: all 0.5s ease-in-out;
+}
+.bi-youtube:hover{
+  transform: scale(1.05);
+   background-color: rgb(212, 28, 28);
+   transition: all 0.5s ease-in-out;
+}
+.bi-facebook:hover{
+  transform: scale(1.05);
+   background-color: rgb(68, 28, 212);
+   transition: all 0.5s ease-in-out;
+}
+.bi-instagram:hover{
+  transform: scale(1.05);
+   background-color: rgb(212, 65, 28);
+   transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-container img {
+    width: 100%;
+    height: auto;
+  }
+}
